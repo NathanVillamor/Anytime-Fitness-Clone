@@ -1,0 +1,36 @@
+/* Anytime Fitness Website Template */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    /* Basic Colors */
+    --Black: #020101;
+    --OffBlack: #2D2926;
+    --White: #FFFFFF;
+    --OffWhite: #E6E9EC;
+    --DarkGray: #54595F;
+    --LightGray: #7A7A7A;
+
+    /* Accent Colors */
+    --Violet: #6E38D5;
+    --LightPurple: #440099;
+    --PinkPurple: #804c9e;
+    --Purple: #4054B2;
+    --LightPurple: #9b51e0;
+    --DarkBlue: #221551;
+    --Cyan: #6EC1E4;
+    --LightGreen: #61CE70;
+    --DarkGreen: #23A455;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* General */
+
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
