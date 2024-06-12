@@ -12,12 +12,12 @@
 
     /* Accent Colors */
     --Violet: #6E38D5;
-    --LightPurple: #440099;
+    --DarkPurple: #440099;
     --PinkPurple: #804c9e;
     --Purple: #4054B2;
     --LightPurple: #9b51e0;
     --DarkBlue: #221551;
-    --Cyan: #6EC1E4;
+    --Cyan: #2ED7DE;
     --LightGreen: #61CE70;
     --DarkGreen: #23A455;
 }
@@ -34,3 +34,138 @@ body {
     padding: 0;
     margin: 0;
 }
+
+/* Navbar Section */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--DarkBlue);
+
+    padding: 0 1rem 0 1rem;
+}
+
+nav img {
+    width: auto;
+    height: 3.7rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--White);
+
+    margin-right: 1.3rem;
+    font-size: 0.7rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav button {
+    font-weight: bold;
+    border-color: transparent;
+    background-color: var(--Violet);
+    color: var(--White);
+
+    font-size: 0.7rem;
+    border-radius: 2rem;
+    padding: 0.6rem;
+}
+
+/* Navbar Section */
+
+/* Hero Section */
+
+main {
+    height: 50vh;
+    
+}
+
+.hero-div-1 {
+    float: left;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: var(--LightPurple);
+
+    width: 50%;
+    height: 100%;
+}
+
+.hero-div-2 {
+    background: var(--DarkPurple);
+
+    height: 80%;
+    width: 80%;
+    padding: 3rem 0 1rem 2rem;
+}
+
+.hero-div-2 h1 {
+    color: var(--White);
+
+    line-height: 2rem;
+    font-weight: 1000;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-div-2 span {
+    color: var(--Cyan);
+
+    font-weight: 1000;
+
+}
+
+.hero-description {
+    color: var(--White);
+
+    font-size: 0.6rem;
+    width: 65%;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero-div-2 button {
+    background-color: var(--White);
+    color: var(--Violet);
+    font-weight: bold;
+    border-color: transparent;
+
+    font-size: 0.6rem;
+    border-radius: 2rem;
+    padding: 0.65rem;
+    width: 7rem;
+    margin-bottom: 1rem;
+}
+
+.terms-conditions {
+    color: var(--LightPurple);
+
+    font-size: 0.5rem;
+}
+.terms-conditions a {
+    color: var(--LightPurple);
+
+    font-size: 0.5rem;
+}
+
+main .hero-img {
+    float: right;
+    height: fit-content;
+    background: url(/Assets/HeroPicture1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 50%;
+    height: 100%;
+}
+
+/* Hero Section */
