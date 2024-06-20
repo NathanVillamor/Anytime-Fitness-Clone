@@ -185,7 +185,7 @@ main .hero-img {
     justify-content: center;
     background: url(/Assets/Find-Your-Gym-module.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
     height: 50vh;
 }
@@ -239,6 +239,7 @@ main .hero-img {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #E6E6E6;
 
     height: 50vh;
     gap: 2rem;
@@ -272,6 +273,7 @@ main .hero-img {
     font-size: 0.55rem;
     padding: 0.7rem;
     margin-bottom: 1rem;
+    border: 0;
 }
 
 .free-trial img { 
@@ -304,19 +306,57 @@ main .hero-img {
     background: url(/Assets/Why-AF-Module.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
+    gap: 2rem;
     height: 75vh;
 }
 
 .try-for-free img {
     width: auto;
-    height: 95%;
-    clip-path: circle();
+    position: relative;
+
+    bottom: 7px;
+    height: 97%;
+    border-bottom-right-radius: 18rem;
 }
 
 .try-for-free .text-container {
-    height: 100%;
+    margin-right: 8%;
+}
+
+.try-for-free .text-container h1 {
+    color: var(--DarkBlue);
+
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-size: 1.8rem;    
+    width: 35rem;
+    line-height: 2rem;
+}
+
+.try-for-free .text-container span {
+    color: var(--DarkPurple);
+}
+
+.try-for-free .text-container p {
+    color: var(--DarkBlue);
+
+    margin-bottom: 1rem;
+}
+
+.try-for-free .text-container button {
+    color: #6244BB;
+
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: auto;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: 0;
 }
 
 /* Try Us For Free Section */
