@@ -360,3 +360,34 @@ main .hero-img {
 }
 
 /* Try Us For Free Section */
+
+/* Terms & Conditions Section */
+
+.terms { 
+    background: var(--OffBlack);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30vh;
+    width: 100%;
+}
+
+.terms .text-container {
+    color: white;
+
+    width: 50%;
+}
+
+.terms .text-container h4 {
+    font-weight: 900;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.terms .text-container p {
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+/* Terms & Conditions Section */
