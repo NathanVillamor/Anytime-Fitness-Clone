@@ -115,7 +115,7 @@ main {
 .hero-div-2 h1 {
     color: var(--White);
 
-    line-height: 2rem;
+    line-height: 2.2rem;
     font-weight: 900;
     font-size: 2.3rem;
     margin-bottom: 0.5rem;
@@ -223,6 +223,7 @@ main .hero-img {
 
 .search-bar input {
     text-align: center;
+    outline: none;
 
     font-size: 0.6rem;
     width: 19rem;
@@ -237,20 +238,62 @@ main .hero-img {
 .free-trial {
     display: flex;
     justify-content: center;
-
+    align-items: center;
 
     height: 50vh;
+    gap: 2rem;
 }
 
 .free-trial .text-container {
-    width: 50%;
-    text-align: justify;
-} 
+    width: 22%;
+}
 
-.free-trial img {
-    width: 500px;
-    height: 500px;
-    
+.free-trial .text-container h1 {
+    color: var(--OffBlack);
+
+    font-weight: 900;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.free-trial .text-container p {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.free-trial .text-container button {
+    background: #6E38D5;
+    border-color: #6E38D5;
+    color: white;
+
+    border-radius: 2rem;
+    font-weight: 900;
+    font-size: 0.55rem;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.free-trial img { 
+    width: auto;
+
+    margin-bottom: 0.8rem;
+    height: 20rem;
+}
+
+.free-trial .text-container p:last-child {
+    color: #666666;
+
+    font-size: 0.5rem;
+}
+
+.free-trial a {
+    color: #666666;
+}
+
+.text-container img {
+    width: auto;
+    height: 1.4rem;
 }
 
 /* Free Trial Section */
