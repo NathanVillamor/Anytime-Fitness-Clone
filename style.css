@@ -91,7 +91,6 @@ nav button {
 
 main {
     height: 50vh;
-    
 }
 
 .hero-div-1 {
@@ -99,7 +98,7 @@ main {
     display: flex;
     justify-content: end;
     align-items: center;
-    background: var(--LightPurple);
+    background: #440099 url(/Assets/line-blend-5-aqua.svg);
 
     width: 50%;
     height: 100%;
@@ -110,23 +109,23 @@ main {
 
     height: 80%;
     width: 80%;
-    padding: 3rem 0 1rem 2rem;
+    padding: 2rem 0 1rem 2rem;
 }
 
 .hero-div-2 h1 {
     color: var(--White);
 
-    line-height: 1.5rem;
-    font-weight: 1000;
-    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 900;
+    font-size: 2.3rem;
     margin-bottom: 0.5rem;
+    width: 80%;
 }
 
 .hero-div-2 span {
     color: var(--Cyan);
 
     font-weight: 900;
-
 }
 
 .hero-description {
@@ -144,7 +143,7 @@ main {
     border-color: transparent;
     
     font-weight: 800;
-    font-size: 0.5rem;
+    font-size: 0.55rem;
     border-radius: 2rem;
     padding: 0.65rem;
     width: 7rem;
@@ -165,7 +164,7 @@ main {
 main .hero-img {
     float: right;
     height: fit-content;
-    background: url(/Assets/HeroPicture1.webp);
+    background: url(/Assets/homepage-hero-afp-december-treadmill-1x.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -184,11 +183,16 @@ main .hero-img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: url(/Assets/Find-Your-Gym-module.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 
     height: 50vh;
 }
 
 .find-gym .text-container h3 {
+    color: var(--OffWhite);
+
     font-size: 1.3rem;
     font-weight: 900;
     margin-bottom: 0.5rem;
