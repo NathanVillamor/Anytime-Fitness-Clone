@@ -41,6 +41,7 @@ body {
     position: sticky;
 
     top: 0;
+    z-index: 5;
 }
 
 nav {
@@ -487,3 +488,42 @@ footer i {
 .col-4 a {
     font-size: 0.7rem;
 }
+
+/* Footer */
+
+/* Feedback */
+
+.feedback-section {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.feedback-container {
+    position: absolute;
+    top: 21.8rem;
+    right: 0;
+}
+
+.feedback {
+    position: sticky;
+    background-color: #C1A7E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1.5rem;
+    height: 5.5rem;
+    border-radius: 0.2rem;
+}
+
+.feedback p {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+
+    font-size: 0.55rem;
+    font-weight: 500;
+}
+
+/* Feedback */
