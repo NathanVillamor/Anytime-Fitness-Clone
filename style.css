@@ -297,3 +297,26 @@ main .hero-img {
 }
 
 /* Free Trial Section */
+
+/* Try Us For Free Section */
+
+.try-for-free {
+    background: url(/Assets/Why-AF-Module.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    height: 75vh;
+}
+
+.try-for-free img {
+    width: auto;
+    height: 95%;
+    clip-path: circle();
+}
+
+.try-for-free .text-container {
+    height: 100%;
+}
+
+/* Try Us For Free Section */
