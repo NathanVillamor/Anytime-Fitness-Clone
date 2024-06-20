@@ -188,24 +188,24 @@ main .hero-img {
     height: 50vh;
 }
 
-.text-container h3 {
+.find-gym .text-container h3 {
     font-size: 1.3rem;
     font-weight: 900;
     margin-bottom: 0.5rem;
 }
 
-.text-container p {
+.find-gym .text-container p {
     color: #00C7B1;
 
     font-size: 0.85rem;
     margin-bottom: 0.2rem;
 }
 
-.text-container i {
+.find-gym .text-container i {
     font-weight: 900;
 }
 
-.search-bar {
+.find-gym .search-bar {
     display: flex;
 
     margin-top: 1rem;
@@ -227,3 +227,26 @@ main .hero-img {
 
 
 /* Find Section */
+
+/* Free Trial Section */
+
+.free-trial {
+    display: flex;
+    justify-content: center;
+
+
+    height: 50vh;
+}
+
+.free-trial .text-container {
+    width: 50%;
+    text-align: justify;
+} 
+
+.free-trial img {
+    width: 500px;
+    height: 500px;
+    
+}
+
+/* Free Trial Section */
